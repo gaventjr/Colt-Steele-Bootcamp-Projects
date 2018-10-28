@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<link rel="stylesheet" 
+type="text/css" 
+href="Example.css">
+<body>
+	<h1>Register</h1>
+	<form>
+<label for="First Name"><strong>First Name:</strong></label>
+<input id ="First Name:" type="text" placeholder="John" name="First Name" required>
+
+<label for="Last Name"><strong>Last Name:</strong></label>
+
+<input type="Last Name:" type="text" placeholder="Smith" name="Last Name" required>
+<div>
+	<label for "male"> Male </label>
+<input name ="Gender" id="male" type="radio">
+<label for "female"> Female </label>
+<input name="Gender" id="female" type="radio">
+<label for "other"> Other</label>
+<input name="Gender" id="other" type="radio">
+</div>
+	<div>
+	<label><strong>Email:</strong></label>
+	<input id ="Email:" type="Email" placeholder="Your Email" required>
+	<label><strong>Password:</strong></label>
+	<input id="Password:" type="text" placeholder="Your Password" pattern=".{5,10}" required title="5 to 10 characters">
+	</div>
+		<div>
+			<label><strong>Birthday:</strong></label>
+			<select name="Month">
+				<option>Month</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+
+			<select name="Day">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+
+			<select name="Year">
+				<option>Year</option>
+				<option>1998</option>
+				<option>1999</option>
+				<option>2000</option>
+				
+			</select>		
+		</div>
+			<div>
+				I agree to the terms and Conditions<input type="checkbox" name="Agree" value="Yes"required>
+			</div>
+			<input type="Submit" value="Submit">
+	</form>
+</body>
+</html>
